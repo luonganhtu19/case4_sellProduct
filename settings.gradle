@@ -1,2 +1,3 @@
 rootProject.name = 'case_product'
+include 'Java'
 

@@ -6,9 +6,9 @@ public class Product {
     private double priceEachProduct;
     private int quantityProduct;
     private CategoryProduct categoryProduct;
-    private String descriptionProduct;
+    private String description;
     private String colorProduct;
-    private String manufacturerProduct;
+    private Manufacturer manufacturer;
     private String img1;
     private String img2;
     private String img3;
@@ -16,17 +16,6 @@ public class Product {
 
 
     public Product(){};
-    public Product(int idProduct, String namProduct, double priceEachProduct, int quantityProduct,CategoryProduct categoryProduct ,String img1, String img2, String img3, String img4) {
-        this.idProduct = idProduct;
-        this.namProduct = namProduct;
-        this.priceEachProduct = priceEachProduct;
-        this.quantityProduct = quantityProduct;
-        this.img1 = img1;
-        this.img2 = img2;
-        this.img3 = img3;
-        this.img4 = img4;
-        this.categoryProduct=categoryProduct;
-    }
 
     public int getIdProduct() {
         return idProduct;
@@ -98,5 +87,29 @@ public class Product {
 
     public void setCategoryProduct(CategoryProduct categoryProduct) {
         this.categoryProduct = categoryProduct;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getColorProduct() {
+        return colorProduct;
+    }
+
+    public void setColorProduct(String colorProduct) {
+        this.colorProduct = colorProduct;
+    }
+
+    public Manufacturer getManufacturer() {
+        return manufacturer;
+    }
+
+    public void setManufacturer(Manufacturer manufacturer) {
+        this.manufacturer = manufacturer;
     }
 }

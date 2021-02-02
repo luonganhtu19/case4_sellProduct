@@ -4,13 +4,8 @@ public class Manufacturer {
     private int idManufacturer;
     private String nameManufacturer;
     private String descriptionManufacturer;
-    public Manufacturer(){};
 
-    public Manufacturer(int idManufacturer, String nameManufacturer, String descriptionManufacturer) {
-        this.idManufacturer = idManufacturer;
-        this.nameManufacturer = nameManufacturer;
-        this.descriptionManufacturer = descriptionManufacturer;
-    }
+    public Manufacturer(){};
 
     public int getIdManufacturer() {
         return idManufacturer;

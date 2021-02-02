@@ -5,11 +5,6 @@ public class CategoryProduct {
     private String name;
 
     public CategoryProduct(){};
-    public CategoryProduct(int idCategory, String name) {
-        this.idCategory = idCategory;
-        this.name = name;
-    }
-
     public int getIdCategory() {
         return idCategory;
     }

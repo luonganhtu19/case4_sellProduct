@@ -1,13 +1,14 @@
 package com.casestudy.model;
 
 public class Manufacturer {
-    private int idManufacturer;
+    private long idManufacturer;
     private String nameManufacturer;
-    private String descriptionManufacturer;
+    private String linkManufacturer;
+
 
     public Manufacturer(){};
 
-    public int getIdManufacturer() {
+    public long getIdManufacturer() {
         return idManufacturer;
     }
 
@@ -23,11 +24,11 @@ public class Manufacturer {
         this.nameManufacturer = nameManufacturer;
     }
 
-    public String getDescriptionManufacturer() {
-        return descriptionManufacturer;
+    public String getLinkManufacturer() {
+        return linkManufacturer;
     }
 
-    public void setDescriptionManufacturer(String descriptionManufacturer) {
-        this.descriptionManufacturer = descriptionManufacturer;
+    public void setLinkManufacturer(String linkManufacturer) {
+        this.linkManufacturer = linkManufacturer;
     }
 }

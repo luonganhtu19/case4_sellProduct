@@ -2,7 +2,7 @@ package com.casestudy.model;
 
 public class CategoryProduct {
     private int idCategory;
-    private String name;
+    private String nameCategory;
 
     public CategoryProduct(){};
     public int getIdCategory() {
@@ -13,11 +13,11 @@ public class CategoryProduct {
         this.idCategory = idCategory;
     }
 
-    public String getName() {
-        return name;
+    public String getNameCategory() {
+        return nameCategory;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNameCategory(String nameCategory) {
+        this.nameCategory = nameCategory;
     }
 }

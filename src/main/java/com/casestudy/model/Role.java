@@ -1,16 +1,16 @@
 package com.casestudy.model;
 
 public class Role {
-    private int idRole;
+    private long idRole;
     private String nameRole;
 
     public Role(){}
 
-    public int getIdRole() {
+    public long getIdRole() {
         return idRole;
     }
 
-    public void setIdRole(int idRole) {
+    public void setIdRole(long idRole) {
         this.idRole = idRole;
     }
 

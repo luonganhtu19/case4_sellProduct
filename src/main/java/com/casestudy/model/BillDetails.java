@@ -2,7 +2,8 @@ package com.casestudy.model;
 
 public class BillDetails {
     private long idBillDetails;
-    private int quantity;
+    private long quantity;
+    private long  idBill;
     private Product product;
 
     public BillDetails(){}
@@ -15,11 +16,11 @@ public class BillDetails {
         this.idBillDetails = idBillDetails;
     }
 
-    public int getQuantity() {
+    public long getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(int quantity) {
+    public void setQuantity(long quantity) {
         this.quantity = quantity;
     }
 
@@ -29,5 +30,13 @@ public class BillDetails {
 
     public void setProduct(Product product) {
         this.product = product;
+    }
+
+    public long getIdBill() {
+        return idBill;
+    }
+
+    public void setIdBill(long idBill) {
+        this.idBill = idBill;
     }
 }

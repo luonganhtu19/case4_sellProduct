@@ -5,6 +5,7 @@ public class User {
     private String fullName;
     private String account;
     private String password;
+    private String statusUser;
     private String email;
     private int phone_number;
     private String address;
@@ -42,6 +43,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getStatusUser() {
+        return statusUser;
+    }
+
+    public void setStatusUser(String statusUser) {
+        this.statusUser = statusUser;
     }
 
     public String getEmail() {

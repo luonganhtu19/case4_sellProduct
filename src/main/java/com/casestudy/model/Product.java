@@ -1,10 +1,10 @@
 package com.casestudy.model;
 
 public class Product {
-    private int idProduct;
-    private String namProduct;
+    private long idProduct;
+    private String nameProduct;
     private double priceEachProduct;
-    private int quantityProduct;
+    private long quantityProduct;
     private CategoryProduct categoryProduct;
     private String description;
     private String colorProduct;
@@ -17,20 +17,20 @@ public class Product {
 
     public Product(){};
 
-    public int getIdProduct() {
+    public long getIdProduct() {
         return idProduct;
     }
 
-    public void setIdProduct(int idProduct) {
+    public void setIdProduct(long idProduct) {
         this.idProduct = idProduct;
     }
 
-    public String getNamProduct() {
-        return namProduct;
+    public String getNameProduct() {
+        return nameProduct;
     }
 
-    public void setNamProduct(String namProduct) {
-        this.namProduct = namProduct;
+    public void setNameProduct(String nameProduct) {
+        this.nameProduct = nameProduct;
     }
 
     public double getPriceEachProduct() {
@@ -41,7 +41,7 @@ public class Product {
         this.priceEachProduct = priceEachProduct;
     }
 
-    public int getQuantityProduct() {
+    public long getQuantityProduct() {
         return quantityProduct;
     }
 
